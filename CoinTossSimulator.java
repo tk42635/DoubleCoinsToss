@@ -1,7 +1,9 @@
-// Name: De Huo 
-// USC NetID: dehuo
-// CS 455 PA1
-// Fall 2019
+/**
+ * Name: De Huo
+ * USC NetId: dehuo
+ * CSCI 455 PA1
+ * Fall 2019
+ */
 
 /**
  * class CoinTossSimulator
@@ -55,7 +57,7 @@ public class CoinTossSimulator
    {
        for (int i = 0;i < numTrials;i++)
        {
-            isHead = tossProbability.nextInt(2);
+            isHead = tossProbability.nextInt(2);  //return a random number from 0 and 1, which denotes the tail or the head of a coin respectively.
             if (isHead != 0)
             {
                 isHead = tossProbability.nextInt(2);

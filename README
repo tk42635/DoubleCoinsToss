@@ -50,7 +50,18 @@ ANY OTHER NOTES FOR THE GRADER:
 
 ----------------------------------------------
 ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+1.  Code offered by Java Documentation
 
+2.  Two-head: 25%
+    Two-tail: 25%
+    One-head one-tail: 50%
 
+    According to the probability theory, there are 4 cases in total 2 of which contribute to the consequence of One-head one-tail
+    and therefore the chance of this result is 2 times as large as any of others.
+
+3. 800 or so.
+
+4. Max valid trials:  2147483647
+   Errors occurring from 2147483648
 
 

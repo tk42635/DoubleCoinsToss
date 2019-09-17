@@ -1,8 +1,13 @@
+
 /**
- * Author: De Huo 
- * Net ID: dehuo
- * USC CSCI455
- * Program Assignment I
+ * Name: De Huo
+ * USC NetId: dehuo
+ * CSCI 455 PA1
+ * Fall 2019
+ * 
+ * 
+ * This program simulates the process of double-coin tosses for given times and shows result in a bar graph.
+ * Compile all the source files and run the main().
  */
 
 import javax.swing.JFrame;
@@ -11,8 +16,8 @@ import java.util.Scanner;
 
 public class CoinSimViewer
 {
-    public static final int widthOfFrame = 200; //Pixels
-    public static final int heightOfFrame = 100;
+    public static final int widthOfFrame = 800; //Size of result window in pixels
+    public static final int heightOfFrame = 500;
 
    public static void main(String[] args)
    {
@@ -21,7 +26,7 @@ public class CoinSimViewer
         JFrame frame = new JFrame();
 
         frame.setSize(widthOfFrame, heightOfFrame);
-        frame.setTitle("Coin Toss Results");
+        frame.setTitle("Double-Coin Tosses Result");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         System.out.println("Please enter the number of trials: ");

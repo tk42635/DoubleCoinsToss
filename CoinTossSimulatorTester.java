@@ -1,11 +1,13 @@
-// Name: De Huo 
-// USC NetID: dehuo
-// CS 455 PA1
-// Fall 2019
+/**
+ * Name: De Huo
+ * USC NetId: dehuo
+ * CSCI 455 PA1
+ * Fall 2019
+ */
 
 /**
- * Test driver for class CoinTossSimulator
- * 
+ * Test driver for class CoinTossSimulator.
+ * We specify 4 tests with incremental number of trials: 1, 10, 100, 1000
  * 
  * 
  */
