@@ -19,19 +19,21 @@
  */
 import java.util.Random;//** */
 
-public class CoinTossSimulator {
+public class CoinTossSimulator 
+{
 
-     private Random tossProbability;
-     private int totalTrials;
-     private int timesOf2Head, timesOf2Tail, timesOfHeadTail;
-     private int isHead;
+    private Random tossProbability;
+    private int totalTrials;
+    private int timesOf2Head, timesOf2Tail, timesOfHeadTail;
+    private int isHead;
     
 
 
    /**
       Creates a coin toss simulator with no trials done yet.
    */
-   public CoinTossSimulator() {
+    public CoinTossSimulator() 
+   {
         tossProbability = new Random();
         
         totalTrials = 0;
@@ -40,7 +42,6 @@ public class CoinTossSimulator {
         timesOfHeadTail = 0;
 
         isHead = 0;
-
    }
 
 

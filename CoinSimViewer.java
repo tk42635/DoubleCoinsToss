@@ -1,11 +1,18 @@
+/**
+ * Author: De Huo 
+ * Net ID: dehuo
+ * USC CSCI455
+ * Program Assignment I
+ */
+
 import javax.swing.JFrame;
 import java.util.Scanner;
 
 
 public class CoinSimViewer
 {
-    public static final int widthOfFrame = 800; //Pixels
-    public static final int heightOfFrame = 500;
+    public static final int widthOfFrame = 200; //Pixels
+    public static final int heightOfFrame = 100;
 
    public static void main(String[] args)
    {

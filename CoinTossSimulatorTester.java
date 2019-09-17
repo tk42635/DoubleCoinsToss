@@ -15,7 +15,6 @@
     public static void main (String[] args)
     {
         int Trials = 0;
-
         
         CoinTossSimulator newToss = new CoinTossSimulator();
         System.out.println("After constructor:");
@@ -29,6 +28,7 @@
         else 
             System.out.println("false");
         System.out.println();
+        
 
         Trials = 1;
         newToss.run(Trials);
@@ -43,7 +43,8 @@
         else 
             System.out.println("false");
         System.out.println();
-        newToss.reset();     
+        newToss.reset();
+          
         
         Trials = 10;
         newToss.run(Trials);
@@ -59,6 +60,7 @@
             System.out.println("false");
         System.out.println();
         newToss.reset();
+
 
         Trials = 100;
         newToss.run(Trials);
