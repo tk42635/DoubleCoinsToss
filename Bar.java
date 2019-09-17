@@ -22,7 +22,8 @@ import java.awt.geom.Rectangle2D;
  * implementation of the methods given.
  * 
  */
-public class Bar {
+public class Bar 
+{
    
 
 
@@ -56,16 +57,14 @@ public class Bar {
       this.scale = scale;
       this.color = color;
       this.label = label;
-
    }
    
    /**
       Draw the labeled bar. 
       @param g2  the graphics context
    */
-   public void draw(Graphics2D g2) {
-      
-      
+   public void draw(Graphics2D g2) 
+   {   
       Font font = g2.getFont();
       FontRenderContext context = g2.getFontRenderContext();
       Rectangle2D labelBounds = font.getStringBounds(label, context);
@@ -75,9 +74,9 @@ public class Bar {
       Rectangle bar = new Rectangle(left, (int)(bottom - heightOfLabel - barHeight * scale), width, (int)(barHeight * scale));
 
       g2.setPaint(color);
-      g2.fill(bar);
+      g2.fill(bar);      
       g2.setColor(Color.BLACK);
-      g2.drawString(label, (int)(left + width / 2.0 - widthOfLabel / 2.0), bottom);
-      
+      g2.drawString(label, (int) (left + width / 2.0 - widthOfLabel / 2.0), bottom);
+            
    }
 }

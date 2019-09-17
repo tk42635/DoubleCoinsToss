@@ -58,6 +58,7 @@ public class CoinSimComponent extends JComponent
 
         TwoHeads.draw(g2);
         TwoTails.draw(g2); 
-        HeadTail.draw(g2);     
+        HeadTail.draw(g2);
+        
     }
 }
